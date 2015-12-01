@@ -6,7 +6,7 @@ import (
 )
 
 func hello(w http.ResponseWriter, r *http.Request) {
-	io.WriteString(w, null)
+	io.WriteString(w, "hello docker world")
 }
 
 func main() {
